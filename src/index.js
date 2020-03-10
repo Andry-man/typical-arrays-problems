@@ -40,7 +40,7 @@ if ( arr === undefined) {//для ошибок
 }
 var ans = 0;
 let leng = arr.length
-for (let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) { //находим среднее значение
 ans+=Number(arr[i])
 }
 return ans/leng
